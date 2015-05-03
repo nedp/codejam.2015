@@ -1,0 +1,4 @@
+[package]
+name = "qualA"
+version = "0.1.0"
+authors = ["Ned Pummeroy <nedpummeroy@gmail.com>"]
