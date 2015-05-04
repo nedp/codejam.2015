@@ -1,6 +1,8 @@
 // Development started:  2015-05-03 ~7:00
 // Development finished: 2015-05-03 ~10:00
 use std::io;
+use std::cmp;
+
 fn main() {
     use std::io::BufRead;
     
@@ -11,7 +13,6 @@ fn main() {
                     .parse::<usize>().unwrap(); 
     
     for icase in 1..t+1 {
-        use std::cmp;
         // Load input
         let _ = in_lines.next().unwrap()
                         .ok().unwrap()
