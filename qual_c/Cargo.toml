@@ -1,0 +1,4 @@
+[package]
+name = "qual_c"
+version = "0.1.0"
+authors = ["nedp"]
